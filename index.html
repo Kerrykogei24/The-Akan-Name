@@ -12,7 +12,7 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="/css/">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
@@ -71,38 +71,39 @@
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
 
 
-        <form>
-            <div class="form-group">
-                <label for="number">Date:</label>
-                <input type="number" class="form-control" placeholder="Please enter Date of birth" id="date" name="date">
-            </div>
-            <div class="form-group">
-                <label for="number">Month:</label>
-                <input type="number" class="form-control" placeholder="Please Enter your B-month" id="month" name="month">
-            </div>
-            <div class="form-group">
-                <label for="number">Year:</label>
-                <input type="number" class="form-control" placeholder="Please your B-Year" id="year" name="year">
-            </div>
-            <div class="form-group form-check">
-                <label class="radio">
+                <div class="col-md-6">
+
+                    <form>
+                        <div class="form-group">
+                            <label for="number">Date:</label>
+                            <input type="number" class="form-control" placeholder="Please enter Date of birth" id="date" name="date">
+                        </div>
+                        <div class="form-group">
+                            <label for="number">Month:</label>
+                            <input type="number" class="form-control" placeholder="Please Enter your B-month" id="month" name="month">
+                        </div>
+                        <div class="form-group">
+                            <label for="number">Year:</label>
+                            <input type="number" class="form-control" placeholder="Please your B-Year" id="year" name="year">
+                        </div>
+                        <div class="form-group form-check">
+                            <label class="radio">
                 <input class="radio" type="radio" name="gender" id="male"> Male  
                 <input class="radio" type="radio" name="gender" id="female"> Female  
               </label>
+                        </div>
+                        <button type="button" class="btn btn-primary" onclick="validate()"> submit</button>
+
+                        <input type="reset" class="btn btn-primary" onclick="reset">
+                    </form>
+                    <p id='name'></p>
+                </div>
             </div>
-            <button type="button" class="btn btn-primary" onclick="validate()"> submit</button>
-
-            <input type="reset" class="btn btn-primary" onclick="reset">
-        </form>
-        <p id='name'></p>
+        </div>
     </div>
 
-
-    </div>
     <script src=" /js/script.js " async defer></script>
 </body>
 
