@@ -16,4 +16,10 @@ function validate() {
     } else if (month <= 0 || month > 12 || (month == 2 && day > 29)) {
         alert("Wacha ujinga.. is that a month!!?")
     };
+    const a = Math.floor((14 - month) / 12)
+
+    const y = year - a
+
+    const m = month + 12 * a - 2
+    const d = (day + y + Math.floor(y / 4) - Math.floor(y / 100) + Math.floor(year / 400) + Math.floor((31 * m) / 12)) % 7;
 }
