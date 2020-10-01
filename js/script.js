@@ -22,4 +22,13 @@ function validate() {
 
     const m = month + 12 * a - 2
     const d = (day + y + Math.floor(y / 4) - Math.floor(y / 100) + Math.floor(year / 400) + Math.floor((31 * m) / 12)) % 7;
+
+
+    if (male.checked == true) {
+        alert("You were born on " + weekDays[d] + " your Akan name is: " + maleNames[d]);
+        document.getElementById('name').innerHTML = "You were born on " + daysOfTheWeek[d] + " and your Akan name is: " + maleNames[d];
+    } else if (female.checked == true) {
+        alert("You were born on " + daysOfTheWeek[d] + " your Akan name is: " + femaleNames[d]);
+        document.getElementById('name').innerHTML = "You were born on " + daysOfTheWeek[d] + " and your Akan name is: " + femaleNames[d];
+    }
 }
