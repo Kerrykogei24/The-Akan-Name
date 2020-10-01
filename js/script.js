@@ -8,4 +8,12 @@ function validate() {
     const year = parseInt(document.getElementById("year").value);
     const male = document.getElementById("male");
     const female = document.getElementById("female");
+
+
+
+    if (day <= 0 || day > 31) {
+        alert("Incorect date. please enter a correct one")
+    } else if (month <= 0 || month > 12 || (month == 2 && day > 29)) {
+        alert("Wacha ujinga.. is that a month!!?")
+    };
 }
