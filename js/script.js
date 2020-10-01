@@ -1,1 +1,7 @@
-const Days
+const weekDays = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+const maleNames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwam"];
+const femaleNames = []
+const weekDay = weekDays[4];
+// function myFunction() {
+document.getElementById("demo").innerHTML = weekDay;
+// };
