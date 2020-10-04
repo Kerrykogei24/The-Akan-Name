@@ -67,11 +67,11 @@ function checkName() {
     }
 
 
-    if (year == "" || year > 2300) {
+    if (year < 1 || year > 2300) {
         alert("please enter valid year e.g 2020");
-    } else if (month == "" || month > 12) {
+    } else if (month < 1 || month > 12) {
         alert("please enter valid month e.g 12");
-    } else if (date == "" || date > 31) {
+    } else if (date < 1 || date > 31) {
         alert("please enter a valid date");
     } else if (document.getElementById("male").checked == true && document.getElementById("female").checked == false) {
         alert("Your Akan name is " + maleNames[findDay]);

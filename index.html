@@ -25,85 +25,87 @@
             <p>The Akan people of Ghana frequently name their children after the day of the week they were born and the order in which they were born. These "day names" have further meanings concerning the soul and character of the person. Middle names have
                 considerably more variety and can refer to their birth order, twin status, or an ancestor's middle name.
             </p>
+            <img src="/images/Akan 1.jpg" alt="akan name">
         </div>
+        <div class="jumbotron">
+            <div class="kip">
+                <h4>Bellow is a list of days and names given.</h4>
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="card">
+                            <div class="card-title">
+                                <h3>Male</h3>
+                            </div>
+                            <div class="card-body">
+                                <ul>
 
-        <div class="kip">
-            <h4>Bellow is a list of days and names given.</h4>
-            <div class="row">
-                <div class="col-md-3">
-                    <div class="card">
-                        <div class="card-title">
-                            <h3>Male</h3>
-                        </div>
-                        <div class="card-body">
-                            <ul>
+                                    <li>Sunday-Kwasi</li>
+                                    <li>Monday-Kwadwo</li>
+                                    <li>Tuesday-Kwabena</li>
+                                    <li>Wednesday-Kwaku</li>
+                                    <li>Thursday-Yaw</li>
+                                    <li>Friday-Kofi</li>
+                                    <li>Saturday-Kwame</li>
+                                </ul>
 
-                                <li>Sunday-Kwasi</li>
-                                <li>Monday-Kwadwo</li>
-                                <li>Tuesday-Kwabena</li>
-                                <li>Wednesday-Kwaku</li>
-                                <li>Thursday-Yaw</li>
-                                <li>Friday-Kofi</li>
-                                <li>Saturday-Kwame</li>
-                            </ul>
-
-                        </div>
-                    </div>
-                </div>
-
-
-
-
-                <div class="col-md-3">
-                    <div class="card">
-                        <div class="card-title">
-                            <h3>Female</h3>
-                        </div>
-                        <div class="card-body">
-                            <ul>
-
-                                <li>Sunday-Akosua</li>
-                                <li>Monday-Adwao</li>
-                                <li>Tuesday-Abenaa</li>
-                                <li>Wednesday-Akua</li>
-                                <li>Thursday-Yaa</li>
-                                <li>Friday-Afua</li>
-                                <li>Saturday-Ama</li>
-                            </ul>
+                            </div>
                         </div>
                     </div>
-                </div>
 
 
-                <div class="col-md-6">
 
-                    <form>
-                        <p id='name'></p>
-                        <div class="form-group">
-                            <label for="number">Year:</label>
-                            <input type="number" class="form-control" placeholder="Please your B-Year" id="year" name="year">
+
+                    <div class="col-md-3">
+                        <div class="card">
+                            <div class="card-title">
+                                <h3>Female</h3>
+                            </div>
+                            <div class="card-body">
+                                <ul>
+
+                                    <li>Sunday-Akosua</li>
+                                    <li>Monday-Adwao</li>
+                                    <li>Tuesday-Abenaa</li>
+                                    <li>Wednesday-Akua</li>
+                                    <li>Thursday-Yaa</li>
+                                    <li>Friday-Afua</li>
+                                    <li>Saturday-Ama</li>
+                                </ul>
+                            </div>
                         </div>
-                        <div class="form-group">
-                            <label for="number">Month:</label>
-                            <input type="number" class="form-control" placeholder="Please Enter your B-month" id="month" name="month">
-                        </div>
-                        <div class="form-group">
-                            <label for="number">Date:</label>
-                            <input type="number" class="form-control" placeholder="Please enter Date of birth" id="date" name="date">
-                        </div>
+                    </div>
 
 
-                        <div class="form-group form-check">
-                            <label class="radio"> Gender
+                    <div class="col-md-6">
+
+                        <form>
+                            <p id='name'></p>
+                            <div class="form-group">
+                                <label for="number">Year:</label>
+                                <input type="number" class="form-control" placeholder="Please your B-Year" id="year" name="year" required min="1" max="2300">
+                            </div>
+                            <div class="form-group">
+                                <label for="number">Month:</label>
+                                <input type="number" class="form-control" placeholder="Please Enter your B-month" id="month" name="month" required min="1" max="12">
+                            </div>
+                            <div class="form-group">
+                                <label for="number">Date:</label>
+                                <input type="number" class="form-control" placeholder="Please enter Date of birth" id="date" name="date" required min="1" max="31">
+                            </div>
+
+
+                            <div class="form-group form-check">
+                                <label class="radio"> Gender
                                 <input class="radio" type="radio" name="gender" id="male"> Male
                                 <input class="radio" type="radio" name="gender" id="female"> Female
                             </label>
-                        </div>
-                        <button type="button" class="btn btn-primary" onclick="checkName()"> submit</button>
+                            </div>
+                            <button type="button" class="btn btn-primary" onclick="checkName()"> submit</button>
 
-                        <input type="reset" class="btn btn-primary" onclick="reset">
-                    </form>
+                            <input type="reset" class="btn btn-primary" onclick="reset">
+                        </form>
 
+                    </div>
                 </div>
             </div>
         </div>
