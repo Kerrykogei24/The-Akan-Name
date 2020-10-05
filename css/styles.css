@@ -13,3 +13,19 @@
 body {
     background: #273747;
 }
+
+img {
+    width: 300px;
+}
+
+.joker {
+    display: flex;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.jumbotron h1 {
+    text-transform: uppercase;
+    text-align: center;
+    padding: 30px;
+}
