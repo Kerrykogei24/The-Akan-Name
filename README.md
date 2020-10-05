@@ -7,9 +7,7 @@
 * on your search bar white [https://github.com/Kerrykogei24/The-Akan-Name](https://github.com/Kerrykogei24/The-Akan-Name)
 * on github click the link and you ready to go.
 ---
-#### project image
-![Kerrykogei](./Akan name/images/image1.png)
-![Kerrykogei](./Akan name/images/image2.png)
+
 ---
 ### Git Hub Live Link
 *click to view my portfolio*
