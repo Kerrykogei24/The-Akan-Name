@@ -11,12 +11,19 @@ function checkName() {
 
 
 
-    if (day <= 0 || day > 31) {
-        alert("Incorect date. please enter a correct one");
-    } else if (month <= 0 || month > 12 || (month == 2 && day > 29)) {
-        alert("Please enter a valid year")
+    if (year <= 1 || year >= 2300 || year.length !== 4) {
+        alert("Enter valid year");
 
-    };
+    } else if (month <= 1 || month >= 12 || month.length !== month) {
+        alert("Please enter a valid year");
+
+    } else if (day <= 1 || day >= 31 || day.length !== day) {
+        alert("Incorect date. please enter a correct one");
+    } else if (year !== year) {
+        alert("Please fill the form");
+    }
+
+
     const a = Math.floor((14 - month) / 12)
 
     const y = year - a
