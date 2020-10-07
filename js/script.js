@@ -11,13 +11,13 @@ function checkName() {
 
 
 
-    if (year <= 1 || year >= 2300 || year.length !== 4) {
+    if (year <= 1 || year > 2300) {
         alert("Enter valid year");
 
-    } else if (month <= 1 || month >= 12 || month.length !== month) {
+    } else if (month <= 1 || month > 12) {
         alert("Please enter a valid year");
 
-    } else if (day <= 1 || day >= 31 || day.length !== day) {
+    } else if (day <= 1 || day > 31) {
         alert("Incorect date. please enter a correct one");
     } else if (year !== year) {
         alert("Please fill the form");
