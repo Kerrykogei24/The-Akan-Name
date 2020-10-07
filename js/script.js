@@ -40,7 +40,4 @@ function checkName() {
         document.getElementById('name').innerHTML = "You were born on " + weekDays[d] + " and your Akan name is: " + femaleNames[d];
     }
 
-
-
-
 }
